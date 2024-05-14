@@ -1,151 +1,19 @@
-<!DOCTYPE html>
-<html class="no-js" lang="zxx">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
-<!-- Mirrored from ecologytheme.com/theme/trabble/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 May 2024 05:56:16 GMT -->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="TravelStar - Tour, Travel, Travel Agency Template">
-    <meta name="keywords" content="Tour, Travel, Travel Agency Template">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TravelStar - Tour, Travel & Travel Agency Template</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/images/favicon.ico">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/assets/bootstrap.min.css">
-    <!-- animate css -->
-    <link rel="stylesheet" href="css/assets/animate.css">
-    <!-- Button Hover animate css -->
-    <link rel="stylesheet" href="css/assets/hover-min.css">
-    <!-- jquery-ui.min css -->
-    <link rel="stylesheet" href="css/assets/jquery-ui.min.css">
-    <!-- meanmenu css -->
-    <link rel="stylesheet" href="css/assets/meanmenu.min.css">
-    <!-- owl.carousel css -->
-    <link rel="stylesheet" href="css/assets/owl.carousel.min.css">
-    <!-- slick css -->
-    <link rel="stylesheet" href="css/assets/slick.css">
-    <!-- chosen.min-->
-    <link rel="stylesheet" href="css/assets/jquery-customselect.css">
-    <!-- font-awesome css -->
-    <link rel="stylesheet" href="css/assets/font-awesome.min.css">
-    <!-- magnific Css -->
-    <link rel="stylesheet" href="css/assets/magnific-popup.css">
-    <!-- Revolution Slider -->
-    <link rel="stylesheet" href="css/assets/revolution/layers.css">
-    <link rel="stylesheet" href="css/assets/revolution/navigation.css">
-    <link rel="stylesheet" href="css/assets/revolution/settings.css">
-    <!-- Preloader css -->
-    <link rel="stylesheet" href="css/assets/preloader.css"> 
-    <!-- custome css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/master.css">
-    <!-- modernizr css -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
-<body> 
-<div id="loader-wrapper">
-    <div id="loader"></div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-</div>
-<!-- header area start here -->
-<header>
-	<div class="header_top_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="contact_wrapper_top">
-						<ul class="header_top_contact">
-							<li><i class="fa fa-phone" aria-hidden="true"></i>+123-456-7890</li>
-							<li><i class="fa fa-envelope-o" aria-hidden="true"></i>info@yourcompany.com</li>
-						</ul>
-						<div class="book-btn">
-							<a href="#">Book Now</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> <!-- header top end -->
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-	<div class="main_nav">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-2 col-sm-2 col-xs-12 tap-v-responsive">
-					<div class="logo-area">
-						<a href="index-2.html"><img src="images/logo.png" alt="">
-						</a>
-					</div>
-				</div>
-				<div class="col-md-10">
-					<nav>
-						<ul class="main-menu text-right">
-							<li class="active"><a href="index-2.html">Home</a>
-								<ul class="dropdown">
-									<li><a href="index-2.html">Home V1</a></li>
-									<li><a href="index-3.html">Home V2</a></li>
-									<li><a href="index-4.html">Home V3</a></li>
-									<li><a href="index-5.html">Home V4</a></li>
-								</ul>
-							</li>
-							<li><a href="package-version-one.html">Package List</a>
-								<ul class="dropdown">
-									<li><a href="package-version-one.html">Package One</a></li>
-									<li><a href="package-version-two.html">Package Two</a></li>
-									<li><a href="single-package.html">Package Details</a></li>
-								</ul>
-							</li>
-							<li><a href="hotel-version-one.html">Hotels</a>
-								<ul class="dropdown">
-									<li><a href="hotel-version-one.html">Hotel One</a></li>
-									<li><a href="hotel-version-two.html">Hotel Two</a></li>
-									<li><a href="hotel-details.html">Hotel Details</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Flights</a></li>
-							<li><a href="blog-version-one.html">Blog</a>
-								<ul class="dropdown">
-									<li><a href="blog-version-one.html">Blog One</a></li>
-									<li><a href="blog-version-two.html">Blog Two</a></li>
-									<li><a href="blog-single.html">Blog Post</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Pages</a>
-								<ul class="dropdown">
-									<li><a href="package-version-one.html">Package One</a></li>
-									<li><a href="package-version-two.html">Package Two</a></li>
-									<li><a href="single-package.html">single package</a></li>
-									<li><a href="hotel-version-one.html">Hotel One</a></li>
-									<li><a href="hotel-version-two.html">Hotel Two</a></li>
-									<li><a href="blog-version-one.html">Blog One</a></li>
-									<li><a href="hotel-version-two.html">Blog Two </a></li>
-									<li><a href="blog-single.html">Single Blog</a></li>
-									<li><a href="contact.html">Contact</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</nav>
-				</div> <!-- main menu end here -->
-			</div>
-		</div>
-	</div> <!-- header-bottom area end here -->
-</header> <!-- header area end here -->
-
+    
 <!-- slider area start here -->
 <section class="slider-area" id="slider_area_1">
 	<div class="rev_slider_wrapper">
 		<div id="rev_slider_1" class="rev_slider" style="display:none">
 			<ul>
 
-				<li data-index="rs-3049" data-transition="zoomin" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/slider/slider_1_1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Love it?" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+				<li data-index="rs-3049" data-transition="zoomin" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="1200/6.png"  data-rotate="0"  data-saveperformance="off"  data-title="Love it?" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 					<!-- MAIN IMAGE -->
-					<img src="images/slider/slider_1_1.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+					<img src="1200/6.png"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 					<!-- BEGIN BASIC TEXT LAYER -->
 					<!-- LAYER NR. 1 -->
 					<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-1" 
@@ -222,9 +90,9 @@
 				</li>
 				<!-- first slider end -->
 
-				<li data-index="rs-3007" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/slider/slider_1_2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Iceberg" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+				<li data-index="rs-3007" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="1200/5.png"  data-rotate="0"  data-saveperformance="off"  data-title="Iceberg" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 					<!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-					<img src="images/slider/slider_1_2.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+					<img src="1200/5.png"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 					<!-- BEGIN BASIC TEXT LAYER -->
 					<!-- LAYER NR. 1 -->
 					<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-1" 
@@ -348,7 +216,7 @@
 			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
 				<div class="single-package">
 					<div class="package-image">
-						<a href="#"><img src="images/packages/1.jpg" alt=""></a>
+						<a href="#"><img src="400/10.png" /></a>
 					</div>
 					<div class="package-content">
 						<h3><a href="#" title="">Dubai – All Stunning Places</a></h3>
@@ -373,7 +241,7 @@
 			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
 				<div class="single-package">
 					<div class="package-image">
-						<a href="#"><img src="images/packages/2.jpg" alt=""></a>
+						<a href="#"><img src="400/9.png" alt=""></a>
 					</div>
 					<div class="package-content">
 						<h3><a href="#" title="">Thailand – All Stunning Places</a></h3>
@@ -399,7 +267,7 @@
 			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
 				<div class="single-package">
 					<div class="package-image">
-						<a href="#"><img src="images/packages/3.jpg" alt="">
+						<a href="#"><img src="400/8.png" alt="">
 						</a>
 					</div>
 					<div class="package-content">
@@ -426,7 +294,7 @@
 			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
 				<div class="single-package">
 					<div class="package-image">
-						<a href="#"><img src="images/packages/4.jpg" alt="">
+						<a href="#"><img src="400/7.png" alt="">
 						</a>
 					</div>
 					<div class="package-content">
@@ -453,7 +321,7 @@
 			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
 				<div class="single-package">
 					<div class="package-image">
-						<a href="#"><img src="images/packages/5.jpg" alt="">
+						<a href="#"><img src="400/6.png" alt="">
 						</a>
 					</div>
 					<div class="package-content">
@@ -480,7 +348,7 @@
 			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
 				<div class="single-package">
 					<div class="package-image">
-						<a href="#"><img src="images/packages/6.jpg" alt="">
+						<a href="#"><img src="400/5.png" alt="">
 						</a>
 					</div>
 					<div class="package-content">
@@ -1074,216 +942,5 @@
 		</div>	<!-- end partners images -->
 	</div>
 </section> <!--end partner section -->
+</asp:Content>
 
-<footer class="footer-area">
-	<div class="container">
-		<div class="row">
-			<!-- footer left -->
-			<div class="col-12 col-sm-6 col-md-6 col-lg-3">
-				<div class="single-footer">
-					<div class="footer-title">
-						<h3><a href="#"><img src="images/logo.png" alt=""></a></h3>
-					</div>
-					<div class="footer-left">
-						<div class="footer-logo">
-							<p>Lorem ipsum dolor sit amet conset ctetur adipiscin elit Etiam at ipsum at ligula vestibulum sodales.</p>
-						</div>
-						<ul class="footer-contact">
-							<li><img class="map" src="images/icon/map.png" alt="">Seventh Avenue New York</li>
-							<li><img class="map" src="images/icon/phone.png" alt="">+123-456-7890</li>
-							<li><img class="map" src="images/icon/gmail.png" alt="">info@yourcompany.com</li>
-						</ul>
-					</div>
-				</div>
-			</div> <!-- footer left -->
-
-			<!-- footer destination -->
-			<div class="col-12 col-sm-6 col-md-6 col-lg-2">
-				<div class="single-footer">
-					<div class="footer-title">
-						<h3>Quick Link</h3>
-					</div>
-					<ul class="list-unstyled">
-						<li><a href="#" title="">Home</a></li>
-						<li><a href="#" title="">Package List</a></li>
-						<li><a href="#" title="">Hotels</a></li>
-						<li><a href="#" title="">Flights</a></li>
-						<li><a href="#" title="">Blog</a></li>
-						<li><a href="#" title="">Pages</a></li>
-						<li><a href="#" title="">Contact</a></li>
-					</ul>
-				</div>
-			</div>	<!-- footer destination -->
-
-			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
-				<div class="single-footer">
-					<div class="single-recent-post">
-						<div class="footer-title">
-							<h3>Recent News</h3>
-						</div>
-						<ul class="recent-post">
-							<li>
-								<a href="#">
-									<div class="post-thum">
-										<img src="images/blog/f4.jpg" alt="" class="img-rounded">
-									</div>
-									<div class="post-content">
-										<p>A Clean Website Gives More Experience To The Visitors.
-										</p>
-										<span>12 July, 2019</span>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<div class="post-thum">
-										<img src="images/blog/f5.jpg" alt="" class="img-rounded">
-									</div>
-									<div class="post-content">
-										<p>A Clean Website Gives More Experience To The Visitors.
-										</p>
-										<span>12 July, 2019</span>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<div class="post-thum">
-										<img src="images/blog/f6.jpg" alt="" class="img-rounded">
-									</div>
-									<div class="post-content">
-										<p>A Clean Website Gives More Experience To The Visitors.
-										</p>
-										<span>12 July, 2019</span>
-									</div>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>	<!-- footer latest news -->
-
-			<!-- footer contact -->
-			<div class="col-12 col-sm-6 col-md-6 col-lg-3 f-phone-responsive">
-				<div class="single-footer">
-					<div class="footer-title">
-						<h3>Quick Contact</h3>
-					</div>
-					<div class="footer-contact-form">
-						<form action="#">
-							<ul class="footer-form-element">
-								<li>
-									<input type="text" name="email" id="email" placeholder="" value="Email Address" onblur="if(this.value==''){this.value='Email Address'}" onfocus="if(this.value=='Email Address'){this.value=''}">
-								</li>
-								<li class="text_area">
-									<textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-									<button type="submit">Send</button>
-								</li>
-								<li>
-									
-								</li>
-							</ul>
-						</form>
-					</div>
-					<div class="footer-social-media">
-						<div class="social-footer-title">
-							<h3>Follow Us</h3>
-						</div>
-						<ul class="footer-social-link">
-							<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li class="gplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>	<!-- footer contact -->
-		</div>
-	</div>
-	<div class="footer_bottom_wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-12">
-					<div class="copy_right_wrapper">
-						<div class="copyright">
-							<p>Copyright &copy; 2019 Travelstar By Ecology Theme</p>
-						</div>
-						<ul class="payicon pull-right">
-							<li>We Accept : </li>
-							<li><a href="#" title=""><img src="images/payicon01.png" alt=""></a></li>
-							<li><a href="#" title=""><img src="images/payicon02.png" alt=""></a></li>
-							<li><a href="#" title=""><img src="images/payicon03.png" alt=""></a></li>
-							<li><a href="#" title=""><img src="images/payicon04.png" alt=""></a></li>
-							<li><a href="#" title=""><img src="images/payicon05.png" alt=""></a></li>
-							<li><a href="#" title=""><img src="images/payicon06.png" alt=""></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer> <!-- end footer -->
-
-<div class="to-top pos-rtive">
-	<a href="#"><i class = "fa fa-angle-up"></i></a>
-</div><!-- Scroll to top-->
-    
-    <!-- ============================
-    		JavaScript Files
-    ============================= -->
-    <!-- jquery -->
-    <script src="js/vendor/jquery-3.2.0.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>    
-    <script src="js/popper.min.js"></script>
-    <!-- owl.carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- slick js -->
-    <script src="js/slick.min.js"></script>
-    <!-- meanmenu js -->
-    <script src="js/jquery.meanmenu.min.js"></script>
-    <!-- jquery-ui js -->
-    <script src="js/jquery-ui.min.js"></script>
-    <!-- wow js -->
-    <script src="js/wow.min.js"></script>
-    <!-- counter js -->
-    <script src="js/jquery.counterup.min.js"></script>
-    <!-- Countdown js -->
-    <script src="js/jquery.countdown.min.js"></script>
-    <!-- waypoints js -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <!-- Isotope js -->
-    <script src="js/isotope.pkgd.min.js"></script>
-    <!-- magnific js -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- Image loaded js -->
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <!-- chossen js -->
-    <script src="js/chosen.jquery.min.js"></script>
-    <!-- Revolution JS -->
-    <script src="js/assets/revolution/jquery.themepunch.revolution.min.js"></script>
-    <script src="js/assets/revolution/jquery.themepunch.tools.min.js"></script>
-    <script src="js/assets/revolution/extensions/revolution.extension.actions.min.js"></script>
-    <script src="js/assets/revolution/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="js/assets/revolution/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="js/assets/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="js/assets/revolution/extensions/revolution.extension.migration.min.js"></script>
-    <script src="js/assets/revolution/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="js/assets/revolution/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="js/assets/revolution/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="js/assets/revolution/extensions/revolution.extension.video.min.js"></script>
-    <script src="js/assets/revolution/revolution.js"></script>
-    <!-- plugin js -->
-    <script src="js/plugins.js"></script>
-    <!-- select2 js -->
-    <script src="js/select2.min.js"></script>    
-    <script src="js/colors.js"></script>
-    <!-- customSelect Js -->
-    <script src="js/jquery-customselect.js"></script>
-    <!-- custom js -->
-    <script src="js/custom.js"></script>
-</body>
-
-<!-- Mirrored from ecologytheme.com/theme/trabble/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 May 2024 05:56:51 GMT -->
-</html>
